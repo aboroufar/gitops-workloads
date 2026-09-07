@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: argocd  # Placeholder name targeted by Kustomize
+          image: app-image  # Placeholder name targeted by Kustomize
           ports:
             - containerPort: 80
           resources:
