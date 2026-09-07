@@ -8,5 +8,5 @@ resources:
 
 images:
 - name: app-image
-  newName: 253906287264.dkr.ecr.eu-west-1.amazonaws.com/argocd-demo-repo
+  newName: 253906287264.dkr.ecr.eu-west-1.amazonaws.com/argocd-app-demo-repo
   newTag: 2730d1e
