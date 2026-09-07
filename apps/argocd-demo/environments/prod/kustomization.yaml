@@ -8,5 +8,5 @@ resources:
 
 images:
   - name: app-image
-    newName: <YOUR_ACCOUNT_ID>.dkr.ecr.eu-west-1.amazonaws.com/blue-green-demo-repo
+    newName: <YOUR_ACCOUNT_ID>.dkr.ecr.eu-west-1.amazonaws.com/argocd-demo-repo
     newTag: latest
