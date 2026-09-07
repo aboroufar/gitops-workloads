@@ -4,9 +4,9 @@ kind: Kustomization
 namespace: default
 
 resources:
-  - ../../base
+- ../../base
 
 images:
-  - name: app-image
-    newName: <YOUR_ACCOUNT_ID>.dkr.ecr.eu-west-1.amazonaws.com/argocd-demo-repo
-    newTag: latest
+- name: app-image
+  newName: 253906287264.dkr.ecr.eu-west-1.amazonaws.com/argocd-demo-repo
+  newTag: 2730d1e
